@@ -1,0 +1,158 @@
+<html>
+<head>
+    <title>Registration form</title>
+    <style>
+        .fontsize{
+            font-size: 30px;
+        }
+        .rowHeight{
+            height: 60px;
+        }
+        .inputhw{
+            height: 30px; width: 280px;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%; margin-top: auto;margin-left: auto;">
+        <tr>
+
+
+
+            <h1 style="text-align: center; text-decoration-line: underline; font-size: 50px;">Registration Form</h1>
+        </tr>
+        <tr>
+            <td style="width: 50%; margin-top: auto;margin-left: auto;">
+                <iframe src="sunbeam.mp4" frameborder="1" style="width: 600px; height:400px; align-content: center; margin-left: 200px;"></iframe>
+            </td>
+            <td>
+                <table>
+
+
+                    <tr class="rowHeight">
+                        <td class="fontsize">Name &nbsp; &nbsp; &nbsp;  </td> 
+                        <td>
+                            <input type="text" name="myname" required placeholder="enter your name" class="inputhw">
+                        </td>
+                    </tr> 
+
+
+                    <tr class="rowHeight">
+                        <td class="fontsize">BirthDate &nbsp;&nbsp;</td>
+                        <td>
+                            <input type="date" name="DOB" required class="inputhw">
+                        </td>
+                    </tr>
+
+
+                    <tr class="rowHeight">
+                        <td class="fontsize">Email &nbsp;&nbsp;</td>
+                        <td>
+                            <input type="email" name="myemail" required placeholder="abc@gmail.com" class="inputhw">
+                        </td>
+                    </tr>
+
+
+                    <tr class="rowHeight">
+                        <td class="fontsize">Password &nbsp;&nbsp;</td>
+                        <td>
+                            <input type="password" name="mypass" required placeholder="********" class="inputhw">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td class="fontsize">Address &nbsp;&nbsp;</td>
+                        <td>
+                            <select name="State" id="" style="height: 30px; width: 100px;">
+                                <option value="1">State</option>
+                                <option value="2">Maharashtra</option>
+                                <option value="3">Goa</option>
+                                <option value="4">Karnataka</option>
+                            </select>
+                            <select name="District" id="" style="height: 30px; width: 80px;">
+                                <option value="1">District</option>
+                                <option value="2">Sangli</option>
+                                <option value="3">Satara</option>
+                                <option value="4">Mumbai</option>
+                                <option value="5">Pune</option>
+                                <option value="6">Chhatrapati Sambhaji Nagar</option>
+                                <option value="7">Ratnagiri</option>
+                                <option value="8">Kolhapur</option>
+                            </select>
+                            <select name="City" id="" style="height: 30px; width: 80px;">
+                                <option value="1">City</option>
+                                <option value="2">Ichalkaranji</option>
+                                <option value="3">Sangli</option>
+                                <option value="4">Tasgaon</option>
+                                <option value="5">Karad</option>
+                                <option value="6">Satara</option>
+                                <option value="7">Pune</option>
+                                <option value="8">Mumbai</option>
+                                <option value="9">Kolhapur</option>
+                            </select> 
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td> </td>
+                        <td>
+                            <span>State</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span>District</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span>City</span>
+                        </td>
+                    </tr>
+
+
+                    <tr class="rowHeight">
+                        <td class="fontsize">Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="1" checked> Female
+                            <input type="radio" name="gender" value="2"> Male 
+                            <input type="radio" name="gender" value="3"> Other
+                        </td>
+                    </tr>
+                    
+
+                    <tr class="rowHeight">
+                        <td class="fontsize">Upload photo &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>
+                            <input type="file" name="myphoto" required placeholder="Browse your photo" style="height: 30px;width: 300px;">
+                        </td>
+
+                    </tr>
+
+
+                    <tr class="rowHeight">
+                        <td class="fontsize">Select your course &nbsp;&nbsp;</td>
+                        <td>
+                            <select name="Select Course" id="" style="height: 27px; width: 100px;">
+                            <option value="1">Select Course</option>
+                            <option value="2">DAC</option>
+                            <option value="3">DBDA</option>
+                            <option value="4">DAI</option>
+                            <option value="5">Embedded</option>
+                            <option value="6">DMC</option>
+                            </select>
+                        </td>
+                    </tr><br><br>
+                    
+
+
+                    <tr class="rowHeight">
+                        <td class="fontsize" >
+                            <input type="button" value="Registration" class="inputhw"> &nbsp;&nbsp;
+                        </td>
+                        <td class="fontsize" >
+                            <input type="button" value="Clear" class="inputhw">
+                        </td>
+                    </tr>
+                 
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
